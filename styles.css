@@ -144,7 +144,7 @@ button {
 }
 
 .section3-text {
-    text-align: justify;
+    text-align: left;
     width: 100%;
    
 }
@@ -173,6 +173,10 @@ button {
     margin-top: 3rem;
     max-width: 100%;
     text-align: justify;
+}
+
+.section4-width p {
+
 }
 
 .section4-width .img4 {
