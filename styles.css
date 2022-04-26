@@ -186,7 +186,7 @@ button {
     max-width: 100%;
     background-color: var(--darkblueemail);
     padding: 1.5rem;
-    text-align: justify;
+    text-align: left;
     margin-top: 1.5rem;
     border-radius: 7px;
     margin-bottom: 3rem;
