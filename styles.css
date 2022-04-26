@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --darkblueemail: hsl(217, 28%, 15%);
+  --darkbluemain: hsl(218, 28%, 13%);
+  --darkbluefooter: hsl(216, 53%, 9%);
+  --darkbluetesti: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --Lightred: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
+
+}
+
+.margin{
+    margin-top: 6rem;
+}
+.container {
+    position: relative;
+    display: table;
+    width: 90%;
+    max-width: 1120px;
+    margin: 2.5% auto 1.5% auto;
+   
+}
+
+body {
+    background-color: var(--darkbluemain);
+    color: var(--white);
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 25px;
+    display: block;
+    text-align: center;
+}
+
+.nav-width {
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Raleway';
+}
+
+.logo {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    width: 4.5rem;
+}
+
+.home-width {
+    margin-top: 3rem;
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.home-width img {
+    max-width: 100%;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-width h1 {
+    margin-top: 2rem;
+    line-height: 30px;
+    font-family: 'Raleway';
+}
+.home-width p {
+    font-size: 14px;
+}
+
+input {
+    width: 60%;
+    padding: 1.5rem 2rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    background-color: var(--white);
+}
+
+input::placeholder {
+    color: rgb(212, 199, 199);
+}
+
+button {
+    width: 50%;
+    padding: 1.2rem 2rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    font-family: 'Raleway';
+    color: var(--white);
+    background-color: var(--cyan);
+}
+
+.section2-width {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50%; */
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.section2-width h2 {
+    font-family: 'Raleway';
+}
+
+.section3-width {
+    display: inline-block;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.section3-width .img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.section3-text {
+    text-align: justify;
+    width: 100%;
+   
+}
+
+.section3-arrow {
+    display: flex;
+    
+}
+
+.section3-arrow img {
+    width: 15px;
+    height: 15px;
+    margin-top: 1.3rem;
+    
+}
+
+.section3-arrow p {
+    text-align: justify;
+    color: var(--cyan);
+    border-bottom: 2px solid var(--cyan);
+    padding-bottom: 0.4rem;
+    
+}
+
+.section4-width {
+    margin-top: 3rem;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.section4-width .img4 {
+    width: 25px;
+    margin-bottom: -2rem;
+    text-align: justify;
+}
+
+.section4-container {
+    width: 80%;
+    max-width: 100%;
+    background-color: var(--darkblueemail);
+    padding: 1.5rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+    border-radius: 7px;
+    margin-bottom: 3rem;
+}
+
+.contain-img {
+    display: flex;
+}
+
+.contain-img img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: 1rem;
+}
+
+.contain4-text {
+    margin-left: 1rem;
+}
+
+.contain4-text h3 {
+    margin-top: 1.2rem;
+    margin-bottom: -1rem;
+}
+
+
+.section5-width {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: var(--darkblueemail);
+    border-radius: 9px;
+    margin-top: 10rem;
+    /* padding: 1rem; */
+}
+
+.section5-width h3 {
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+.section5-text {
+    padding-top: 1.5rem;
+}
+
+.btn-input input{
+    width: 75%;
+    padding: 1.5rem 2rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    font-family: 'Raleway';
+    color: var(--white);
+    background-color: var(--cyan);
+}
+
+.foot-width {
+    display: block;
+    margin-top: 5rem;
+}
+
+.icon-location {
+    display: flex;
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+.icon-location img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-location p {
+    margin: -0.4rem 0 0 3rem;
+}
+
+
+.margin-left {
+    margin-top: 2rem;
+    font-size: 14px;
+}
+
+.foot-logo {
+    margin-left: 3rem;
+}
+.foot3 { 
+    margin-top: 6rem;
+}
+.foot5 {
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+    
+}
+
+.div-circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 19px;
+    /* padding-top: 0.5rem; */
+}
+.foot5 svg {
+    width: 2rem;
+    text-align: center;
+   padding: 0.5rem 0 0 0.3rem;
+}
+
+
+@media (min-width: 900px) {
+    
+    .home-width  p {
+        font-size: 14px;
+    }
+
+    button {
+        width: 20%;
+        padding: 1.2rem 2rem;
+        border-radius: 50px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        font-family: 'Raleway';
+        color: var(--white);
+        background-color: var(--cyan);
+    }
+    
+    
+
+    .btn-input input{
+        width: 75%;
+        padding: 1.5rem 2rem;
+        border-radius: 50px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        font-family: 'Raleway';
+        color: var(--white);
+        background-color: var(--cyan);
+    }
+    
+    .section2-width {
+        display: flex;
+        justify-content: space-around;
+        /* top: 50%; */
+    }
+
+    .section2-align p {
+        font-size: 14px;
+    }
+
+    .width h2 {
+        font-size: 14px;
+    }
+
+    .section3-width {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .section3-width .img  {
+        width: 500px;
+        max-width: 100%;
+    }
+
+    .section3-text {
+        text-align: justify;
+        width: 50%;
+        max-width: 100%;
+        margin-left: 2rem;
+       
+    }
+
+    .section3-text p{
+        font-size: 14px;
+    }
+    .section3-arrow img {
+        width: 15px;
+        height: 15px;
+        margin-top: 1.3rem;
+        
+    }
+
+    .section4-width {
+        /* margin-top: 3rem; */
+        max-width: 100%;
+        text-align: justify;
+        
+    }
+
+    .section4-container-set {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .section4-container {
+        width: 38%;
+        margin-left: 0.5rem;
+        max-width: 100%;
+        background-color: var(--darkblueemail);
+        padding: 1rem;
+        text-align: left;
+       border-radius: 8px;
+    }
+
+    .section4-container p {
+        font-size: 14px;
+    }
+
+    .section5 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .section5-width {
+        max-width: 100%;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .section5-width h3 {
+        font-family: 'Raleway';
+        font-size: 17px;
+    }
+
+    .section5-text p {
+        font-size: 14px;
+    }
+    .email {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .email .input-input {
+        width: 50%;
+        max-width: 100%;
+        
+    }
+
+    .email .btn-input{
+        width: 30%;
+        max-width: 100%;
+    }
+
+    .email .btn-input input {
+        width: 100%;
+    }
+
+    .foot-width {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px
+    }
+
+    .foot-width p {
+        font-size: 14px;
+    }
+
+    .foot5 {
+        display: flex;
+        
+        justify-content: space-between;
+        
+    }
+
+    .foot-logo {
+        margin-left: 3rem;
+    }
+    .foot-margin {
+        margin-top: 3.5rem;
+    }
+
+    .foot-margin3 {
+        margin-top: 4.1rem;
+    }
+
+    .foot-margin4 {
+        margin-top: 4.1rem;
+    }
+
+    .foot-margin5 {
+        margin-top: 6rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+}
