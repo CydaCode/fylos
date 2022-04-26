@@ -51,6 +51,7 @@ body {
 .logo img {
     width: 90px;
     height: 30px;
+    margin-top: 0.2rem;
 }
 
 .nav-menu ul{
@@ -334,6 +335,12 @@ button {
         font-family: 'Raleway';
         color: var(--white);
         background-color: var(--cyan);
+    }
+
+    .logo img {
+        width: 120px;
+        height: 60px;
+        margin-top: 0.2rem;
     }
     
     .section2-width {
